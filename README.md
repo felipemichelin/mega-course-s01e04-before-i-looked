@@ -16,7 +16,9 @@ The reviewed plan is tracked by issues [#1](https://github.com/felipemichelin/me
 [#5](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/5),
 [#6](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/6) and
 [#7](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/7).
-Worker closing records identify integrated commits. The remaining cleanup issue stays open.
+Worker closing records identify integrated commits. Preview review and cleanup stay open
+until their respective checks hold. Sending the preview alone did not complete review: the
+course refused an early closure of #6, so it was reopened before resubmission.
 
 The [public static review copy](https://mega-course-s01e04-felipe.pages.dev/) was exported from
 the actual route outside Git and uploaded to the owner's Blackout Media Cloudflare account.
