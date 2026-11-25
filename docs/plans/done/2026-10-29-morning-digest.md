@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-11-25
 ---
 
 # Morning digest
@@ -77,3 +78,15 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Blocked by |
+|---|-------|------------|
+| 1 | [Run-log types and reader](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/1) | — |
+| 2 | [Server-rendered digest page](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/2) | #1 |
+| 3 | [JSON digest route](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/3) | #1 |
+| 4 | [Board links and night counts](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/4) | #1 |
+| 5 | [Route verification](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/5) | #1, #2, #3 |
+| 6 | [Review preview](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/6) | #1–#5 |
+| 7 | [Remove preview marker and archive plan](https://github.com/felipemichelin/mega-course-s01e04-before-i-looked/issues/7) | #6 |

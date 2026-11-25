@@ -15,7 +15,8 @@ node scripts/export-preview.mjs \
 The exporter saves the HTML response byte for byte, including the lane banner. A public preview
 contains lane data. Keep the file out of the repository, issues, and chat attachments. The review
 step needs an owner-approved public HTTPS host that supports replacing the object at the same URL.
-Once the file is hosted, send the reviewer that URL and the issue list as described in `plan.md` §3.
+Once the file is hosted, send the reviewer that URL and the issue list. See §3 of the
+[Morning digest plan](plans/done/2026-10-29-morning-digest.md).
 
 To verify the export locally, fetch the same URL again with `curl -fsS --noproxy '*'` and pipe it
 to `cmp "$PREVIEW_DIR/digest.html" -`. A zero exit status confirms that the bytes match.
